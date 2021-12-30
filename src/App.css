@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #193875;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +29,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+#movies {
+  color: rgb(255, 255, 255);
+  background-color: #193875;
+  margin-right: 30px;
+}
+#movitem {
+  display: flex;
+  padding: 3px;
+}
+#deleteButton {
+  margin-right: 18px;
 }
